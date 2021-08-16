@@ -1,0 +1,89 @@
+.LoginContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex:1;
+}
+.LoginLogo{
+    width: 173px;
+    height: 90px;
+    margin-top: 50px;
+}
+.LoginContent{
+    margin-top: 50px;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+.LoginContent form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.LoginContent h4{
+    color: white;
+}
+.LoginContent form label{
+    color:white;
+    font-size: 1.0rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.LoginContent form input{
+    border-radius: 8px;
+    padding: 5px;
+}
+.LoginLembrarEEsqueci{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.LoginLembrarEEsqueci p{
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: white;
+}
+.LoginLembrarEEsqueci button{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    border-width: 0;
+
+}
+.LoginCirculoCheckout{
+    width: 15px;
+    height: 15px;
+    margin-right: 2px;
+}
+.LoginCirculo{
+    width: 15px;
+    height: 15px;
+    margin-right: 2px;
+    border-radius: 50%;
+    background-color: white;
+}
+.LoginButtonLogin{
+    background-color: #04D361;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.LoginButtonLogin p{
+    color: white;
+}
+.LoginLinkCadastro{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+.LinkToCadastro{
+    text-decoration: underline;
+    cursor: pointer;
+}

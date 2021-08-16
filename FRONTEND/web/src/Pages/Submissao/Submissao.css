@@ -1,0 +1,277 @@
+.SubmissaoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex:1;
+}
+.SubmissaoLogo{
+    width: 173px;
+    height: 90px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.SubmissaoContainer h5,h4{
+    color: white;
+    font-weight: 400;
+}
+.SubmissaoContent{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 20px;
+}
+.SubmissaoContent{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 20px;
+}
+.SubmissaoForm{
+    background-color: #1C1818;
+    width: 100%;
+    border-radius: 10px;
+    height: 700px;
+    overflow-y: auto;
+    color:white
+}
+.SubmissaoForm form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.SubmissaoForm form input{
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 2;
+    border-color: black;
+    width: 100% !important;
+}
+.SubmissaoForm form label{
+    margin-top: 25px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.ProximoButton{
+    background-color: #0B1FD2;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    border-width: 0;
+    margin-top: 50px;
+}
+.buttonsContinuacao{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.ScrollDeTrilha{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    overflow-y: auto;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+.ScrollDeTrilha button{
+background-color:white ;
+color: black;
+font-weight: 700;
+margin: 8px;
+width: 100%;
+border-radius: 10px;
+}
+.ScrollDeTrilha button svg path{
+   fill: black;
+    
+}
+.ScrollDeTrilha button.active{
+border-style: solid;
+border-color: #04D361;
+border-width: 4px;
+}
+.buttonsContinuacaoGrupo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.VoltarButton{
+    background-color: #D20B0B;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    color: white;
+    border-width: 0;
+    margin-top: 50px;
+}
+.TrilhaSelecionada{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+.TrilhaSelecionada button{
+background-color:white ;
+color: black;
+font-weight: 700;
+margin: 8px;
+width: 100%;
+border-radius: 10px;
+}
+.TrilhaSelecionada button svg path{
+   fill: black;
+    
+}
+.TrilhaSelecionada button.active{
+border-style: solid;
+border-color: #04D361;
+border-width: 4px;
+}
+.TextArea{
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    background-color: #c4c4c4;
+}
+.buttonAutores{
+    background-color: #0F196F;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    padding: 10px;
+    border-width: 0;
+    max-width: 200px;
+}
+.TabelaAdicionarAutorElemento{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: #c4c4c4;
+    border-style: solid;
+}
+.TabelaAdicionarAutorElemento input{
+    border-radius: 0px !important;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-right-width: 1px;
+    border-left-width: 1px;
+}
+.NomeAutores{
+    width: 87%;
+    border-width: 0px !important;
+}
+.TabelaAdicionarAutorElemento button{
+    width: 50px;
+    height: 35px;
+    background-color: #FD0909;
+    color: white;
+    font-weight: 700px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: -2px;
+
+}
+.SubmissaoButtonsContainer{
+    margin-top: 25px;
+}
+.SubmissaoButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.SubmissaoButtons button {
+margin-top: 15px;
+border-width: 0;
+background-color: transparent;
+display: flex;
+flex-direction: row;
+margin-right: 15px;
+align-items: center;
+color: white;
+}
+.SubmissaoButtons button svg{
+width: 25px;
+height: 25px;
+}
+.SubmissaoButtons button svg path{
+fill: white;
+}
+.EnviarSubmissaoButton{
+    background-color: #04D361;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    border-width: 0;
+    margin-top: 50px;
+}
+.Configurarbiblioteca{
+    color: black;
+}
+.Configurarbiblioteca label{
+    color: white;
+}
+.configAutores{
+    display: flex;
+    flex-direction: column;
+}
+@media(min-width:720px){
+    .SubmissaoContent{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 20px;
+    }
+    .buttonsContinuacao{
+        justify-content: flex-end;
+    }
+    .SubmissaoForm{
+        background-color: white;
+        color: black;
+    }
+    .ScrollDeTrilha{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+        align-items: space-around;
+        padding: 10px;
+    }
+    .ScrollDeTrilha button{
+        width: 20%;
+    }
+    .Configurarbiblioteca label{
+        color: black;
+    }
+    .SubmissaoButtons{
+        max-width: 450px;
+        margin-bottom: 20px;
+    }
+    .SubmissaoButtons button{
+        color:black
+    }
+    .SubmissaoButtons button svg path{
+        fill: black;
+    }
+    .perguntasExtrasContainer{
+        margin-top: 20px;
+    }
+
+}
+.DefaultContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,37 @@
+.HomeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex:1;
+}
+.HomeLogo{
+    width: 173px;
+    height: 90px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.HomeContainer h5,h4{
+    color: white;
+    font-weight: 400;
+}
+.HomeContent{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 20px;
+}
+.HomeContentHome{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:white
+}
+.DefaultContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,104 @@
+ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+}
+.NavBarContent{
+    display: none;
+    overflow-x: auto;
+    padding: 10px;
+    z-index: 2;
+    background-color: #1C1818;
+}
+.NavBarContent.show{
+    display: inline-block;
+}
+.ElementNavabar{
+    padding: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+.ElementNavabar svg path{
+    fill: white;
+}
+.ElementNavabar svg {
+    width: 50px;
+    height: 50px;
+}
+.ElementNavabar.active{
+    background-color: white;
+    color: black;
+}
+.ElementNavabar.active svg path{
+    fill:black;
+}
+
+.ElementNavabar:hover{
+    background-color: white;
+    color: black;
+}
+.ElementNavabar:hover svg path{
+    fill: black;
+}
+.buttonShowEHidden{
+    width: 50px;
+    height: 50px;
+    float: right;
+    background-color: transparent;
+    border-width: 0;
+}
+.buttonShowEHidden img{
+    width: 30px;
+    height: 30px;
+}
+.NavBarContainer{
+    width: 100%;
+}
+@media(min-width:720px){
+    .NavBarContainer{
+        width: 120px;
+    }
+    ul{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    ul li{
+        margin-bottom: 6px;
+    }
+    .buttonShowEHidden{
+        display: none;
+    }
+    .NavBarContent{
+        display: inline-block;
+    }
+    .NavBarContent{
+        width: 100%;
+        overflow-x: visible;
+        padding: 10px;
+    }
+}
+@media(max-width:720px){
+    .notWeb{
+        display: none;
+    }
+    .NavBarContainer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    .NavBarContent.show{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}

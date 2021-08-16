@@ -1,0 +1,116 @@
+.CadastroContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex:1
+}
+.CadastroLogo{
+    width: 173px;
+    height: 90px;
+    margin-top: 50px;
+}
+.CadastroContent{
+    margin-top: 50px;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+.CadastroContent form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.CadastroContent h4{
+    color: white;
+}
+.CadastroContent form label{
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.CadastroContent form input{
+    border-radius: 8px;
+    padding: 5px;
+}
+.CadastroPossuiDeficienciaContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.CadastroPossuiDeficienciaContainer p{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+}
+.CadastroPossuiDeficienciaButtons{
+    display: flex;
+    flex-direction: column;
+}
+.CadastroPossuiDeficienciaButtons button{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    border-width: 0;}
+.CadastroPossuiDeficienciaButtons button img{
+    width: 30px;
+    height: 30px;
+}    
+.CadastroDefiecienciaContent{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.CadastroOptionDeficiencia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.CadastroOptionDeficiencia input{
+    width: 20px;
+    height: 20px;
+}
+.CadastroSolicitacao{
+    height: 100px;
+    border-radius: 10;
+    margin-top: 15px;
+}
+.CadastroFooterConatiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.CadastroFooterConatiner button p {
+    color: white;
+}
+.CadastroButtonCancelar{
+    background-color: #D20B0B;
+    border-width: 0;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.CadastroButtonConfirmar{
+    background-color: #0B1FD2;
+    border-width: 0;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.CadastroContent form label{
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+.OptionDeficiencia label{
+    font-size: 1.2rem;
+}

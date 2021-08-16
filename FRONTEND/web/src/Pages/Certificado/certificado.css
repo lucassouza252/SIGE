@@ -1,0 +1,167 @@
+.CertificadoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex:1;
+}
+
+.SiteLogo{
+    width: 173px;
+    height: 90px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.CertificadoContainer h3,h4{
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.Nav{
+    display: flex;
+    width: 100%;
+}
+
+.CertificadoContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex:1;
+}
+
+.Test form input[type="text"]{
+    margin-top: 30px;
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    padding: 8px;
+    border-style: solid;
+    border-width: 2;
+    border-color: black;
+}
+
+.Test form button[type="submit"] {
+    margin-top: 30px;
+    position: relative;
+    float: right;
+    margin-left: -50px;
+    border-radius: 6px;
+    padding: 6px;
+    background: #04D361;
+    height: 43px;
+    border-style: solid;
+    border-width: 2;
+    border-color: black;
+    -webkit-appearance: none;
+}
+
+.LogoSearch {
+    width: 28px;
+    height: 28px;
+}
+
+.FormEventoeCate{
+    margin-top: 20px;
+    flex-direction: column;
+    max-width: 450px;
+    color: white;
+}
+
+.buttonGerarCertificados{
+    background-color: #0F196F;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: white;
+    padding: 10px;
+    border-width: 0;
+    cursor:pointer
+}
+
+.separar p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TabelaCertificados2{
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.TabelaCertificados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CodigoIn, .EventoIn, .ButtonIn {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.codigoCertificado{
+    width: 80%;
+    background: white;
+    text-align: center;
+}
+
+.tipoCertificado, .eventoCertificado{
+    width: 40%;
+    background: white;
+    text-align: center;
+}
+
+.deleteEvento {
+    width: 40%;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    padding: 10px;
+    border-width: 0;
+    cursor:pointer;
+}
+
+.downloadEvento{
+    width: 40%;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    padding: 10px;
+    border-width: 0;
+    cursor:pointer;
+}
+@media(min-width:720px){
+    .Test{
+        width: 100%;
+        padding: 0 80px;
+    }
+    .Test form input{
+        width: 100%;
+    }
+    .TabelaCertificados form{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .ButtonIn{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .ButtonIn button{
+        width: 200px;
+    }
+}
