@@ -1,6 +1,5 @@
-## Disciplina de Engenharia de Software - UFRB
-### Docente: Tássio Vale
-### Discentes:
+## Projeto Gerenciador de Eventos
+### Envolvidos:
 <ul>
 <li>Gustavo Santiago</li>
 <li>Matheus Pithon</li>
